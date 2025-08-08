@@ -32,8 +32,8 @@ Este proyecto es un script en Python para enviar correos electrónicos de alerta
 1. Clona este repositorio:
 
    ```bash
-   git clone https://github.com/tu_usuario/tu_repositorio.git
-   cd tu_repositorio
+   git clone [https://github.com/tu_usuario/tu_repositorio.git](https://github.com/DenzelRdz/demo-emails.git)
+   cd demo-emails
 
 2. Instala las dependencias
 
