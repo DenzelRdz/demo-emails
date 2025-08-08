@@ -37,10 +37,12 @@ Este proyecto es un script en Python para enviar correos electrónicos de alerta
 
 2. Instala las dependencias
 
+    ```bash python
     pip install -r requirements.txt
 
 3. Crea un archivo .env con tus datos SMTP y configuración, por ejemplo:
 
+    ```bash python
     EMAIL_HOST=smtp.gmail.com
     EMAIL_PORT=587
     EMAIL_USER=tu_correo@gmail.com
@@ -50,6 +52,7 @@ Este proyecto es un script en Python para enviar correos electrónicos de alerta
 
 4. Prepara tu archivo actividades.csv con el formato esperado
 
+    ```bash csv
     Proceso,FechaInicio,FechaFin,Hora,Actividad,Encargado,Estatus,Frecuencia
     App1,08/08/2025,15/08/2025,09:00,Prueba QA,correo@ejemplo.com,Pendiente,Diaria
 
